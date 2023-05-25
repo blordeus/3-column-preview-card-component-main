@@ -21,11 +21,65 @@ body {
     padding: 0;
 }
 
+.heading {
+    font-family: $heading;
+    font-size: $headingSize;
+}
+
+.paragraph {
+    font-family: $body;
+    font-size: $bodySize;
+}
+
+.container {
+    padding: 30px;
+}
+
 .btn-sedans {
+    font-family: $body;
     background-color: white;
     color: $sedans-color;
     &:active {
         background-color: transparent;
         color: white;
+        border: white 1px solid;
     }
+}
+
+.btn-suvs {
+    font-family: $body;
+    background-color: white;
+    color: $suvs-color;
+    &:active {
+        background-color: transparent;
+        color: white;
+        border: white 1px solid;
+    }
+}
+
+.btn-luxury {
+    font-family: $body;
+    background-color: white;
+    color: $luxury-color;
+    &:active {
+        background-color: transparent;
+        color: white;
+        border: white 1px solid;
+    }
+}
+
+.blend {
+    mix-blend-mode: multiply;
+}
+
+.sedans-bg {
+    background-color: $sedans-color;
+}
+
+.suv-bg {
+    background-color: $suvs-color;
+}
+
+.luxury-bg {
+    background-color: $luxury-color;
 }

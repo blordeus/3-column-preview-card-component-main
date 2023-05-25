@@ -13,11 +13,65 @@ body {
   padding: 0;
 }
 
+.heading {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 40px;
+}
+
+.paragraph {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+}
+
+.container {
+  padding: 30px;
+}
+
 .btn-sedans {
+  font-family: "Lexend Deca", sans-serif;
   background-color: white;
   color: hsl(31, 77%, 52%);
 }
 .btn-sedans:active {
   background-color: transparent;
   color: white;
+  border: white 1px solid;
+}
+
+.btn-suvs {
+  font-family: "Lexend Deca", sans-serif;
+  background-color: white;
+  color: #006971;
+}
+.btn-suvs:active {
+  background-color: transparent;
+  color: white;
+  border: white 1px solid;
+}
+
+.btn-luxury {
+  font-family: "Lexend Deca", sans-serif;
+  background-color: white;
+  color: #004140;
+}
+.btn-luxury:active {
+  background-color: transparent;
+  color: white;
+  border: white 1px solid;
+}
+
+.blend {
+  mix-blend-mode: multiply;
+}
+
+.sedans-bg {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.suv-bg {
+  background-color: #006971;
+}
+
+.luxury-bg {
+  background-color: #004140;
 }/*# sourceMappingURL=index.css.map */
