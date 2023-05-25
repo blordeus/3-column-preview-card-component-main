@@ -21,12 +21,12 @@ body {
     padding: 0;
 }
 
-.heading {
+.title {
     font-family: $heading;
     font-size: $headingSize;
 }
 
-.paragraph {
+.description {
     font-family: $body;
     font-size: $bodySize;
 }
@@ -66,10 +66,6 @@ body {
         color: white;
         border: white 1px solid;
     }
-}
-
-.blend {
-    mix-blend-mode: multiply;
 }
 
 .sedans-bg {
