@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
 
 $heading: 'Big Shoulders Display', cursive;
-$body: 'Lexend Deca', sans-serif;
+$headingSize: 40px;
+$body: 'Lexend Deca', sans-serif; 
+$bodySize: 15px;
+$sedans-color: hsl(31, 77%, 52%);
+$suvs-color: #006971;
+$luxury-color: #004140;
 
 .attribution { 
     font-size: 11px; text-align: center; 
@@ -9,4 +14,18 @@ $body: 'Lexend Deca', sans-serif;
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.btn-sedans {
+    background-color: white;
+    color: $sedans-color;
+    &:active {
+        background-color: transparent;
+        color: white;
+    }
 }
