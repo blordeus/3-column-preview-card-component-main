@@ -22,20 +22,43 @@ body {
 }
 
 .title {
+    padding-top: 40px;
+    padding-bottom: 20px;
     font-family: $heading;
     font-size: $headingSize;
+    color: white;
+}
+
+img {
+    padding-top: 25px;
+}
+
+.col {
+    padding-right: 100px;
+    padding-left: 50px;
+    padding-bottom: 70px;
 }
 
 .description {
     font-family: $body;
     font-size: $bodySize;
+    padding-bottom: 70px;
+    color: white;
 }
 
 .container {
-    padding: 30px;
+    padding: 100px;
 }
 
 .btn-sedans {
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
     font-family: $body;
     background-color: white;
     color: $sedans-color;
@@ -47,6 +70,14 @@ body {
 }
 
 .btn-suvs {
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
     font-family: $body;
     background-color: white;
     color: $suvs-color;
@@ -58,6 +89,14 @@ body {
 }
 
 .btn-luxury {
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
     font-family: $body;
     background-color: white;
     color: $luxury-color;
@@ -66,6 +105,10 @@ body {
         color: white;
         border: white 1px solid;
     }
+}
+
+.btn-spacing {
+    padding-top: 40px;
 }
 
 .sedans-bg {

@@ -14,20 +14,43 @@ body {
 }
 
 .title {
+  padding-top: 40px;
+  padding-bottom: 20px;
   font-family: "Big Shoulders Display", cursive;
   font-size: 40px;
+  color: white;
+}
+
+img {
+  padding-top: 25px;
+}
+
+.col {
+  padding-right: 100px;
+  padding-left: 50px;
+  padding-bottom: 70px;
 }
 
 .description {
   font-family: "Lexend Deca", sans-serif;
   font-size: 15px;
+  padding-bottom: 70px;
+  color: white;
 }
 
 .container {
-  padding: 30px;
+  padding: 100px;
 }
 
 .btn-sedans {
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50px;
   font-family: "Lexend Deca", sans-serif;
   background-color: white;
   color: hsl(31, 77%, 52%);
@@ -39,6 +62,14 @@ body {
 }
 
 .btn-suvs {
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50px;
   font-family: "Lexend Deca", sans-serif;
   background-color: white;
   color: #006971;
@@ -50,6 +81,14 @@ body {
 }
 
 .btn-luxury {
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50px;
   font-family: "Lexend Deca", sans-serif;
   background-color: white;
   color: #004140;
@@ -58,6 +97,10 @@ body {
   background-color: transparent;
   color: white;
   border: white 1px solid;
+}
+
+.btn-spacing {
+  padding-top: 40px;
 }
 
 .sedans-bg {
